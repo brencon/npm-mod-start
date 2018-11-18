@@ -8,7 +8,7 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint src --fix",
     "test": "mocha --reporter spec",
-    "preversion": "npm run lint && npm test",
+    "preversion": "npm run lint && npm test && npm run cover",
     "prepublishOnly": "npm version patch && git push --tags && git push"
   },
   "repository": {
