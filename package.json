@@ -1,0 +1,26 @@
+{
+  "name": "npm-mod-start",
+  "version": "0.0.1",
+  "description": "An npm module starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brencon/npm-mod-start.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "starter-kit",
+    "nodejs",
+    "library"
+  ],
+  "author": "Brendan Conrad <brconrad@symitar.com> (https://twitter.com/symBrendan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brencon/npm-mod-start/issues"
+  },
+  "homepage": "https://github.com/brencon/npm-mod-start#readme"
+}
