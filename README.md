@@ -10,7 +10,7 @@ TBD
 `npm install npm-mod-start -S`
 
 ## Tests
-TODO
+`npm test`
 
 ## Code Coverage
 TODO
