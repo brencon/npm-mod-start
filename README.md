@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/brencon/npm-mod-start.svg?branch=master)](https://travis-ci.org/brencon/npm-mod-start)
+[![Build Status](https://travis-ci.org/brencon/npm-mod-start.svg?branch=master)](https://travis-ci.org/brencon/npm-mod-start) [![Coverage Status](https://coveralls.io/repos/github/brencon/npm-mod-start/badge.svg?branch=master)](https://coveralls.io/github/brencon/npm-mod-start?branch=master)
 
 [![NPM](https://nodei.co/npm/npm-mod-start.png)](https://nodei.co/npm/npm-mod-start/)
 

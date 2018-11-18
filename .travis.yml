@@ -5,3 +5,9 @@ node_js:
 
 install:
 - npm ci
+
+script:
+- npm run cover
+
+# Send coverage data to Coveralls
+after_success: "npm run coverage"
