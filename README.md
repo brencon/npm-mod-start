@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/brencon/npm-mod-start.svg?branch=master)](https://travis-ci.org/brencon/npm-mod-start)
 
+[![NPM](https://nodei.co/npm/npm-mod-start.png)](https://nodei.co/npm/npm-mod-start/)
+
 # npm-mod-start
 An npm module starter kit
 
