@@ -36,16 +36,9 @@ The following commands will create a new version of the module, automatically cr
 #### Commit with message
 `git commit -m "your commit message"`
 
-#### Bump the version
-`npm version patch`
-
-#### Push the updated tag
-`git push --tags`
-
-#### Push committed changes
-`git push`
-
 #### Publish the module to npmjs.org
+The `npm publish` command will create a patch in package.json, add a new tag, push the tag, and publish the changes to npmjs.
+
 `npm publish`
 
 ## Creator
