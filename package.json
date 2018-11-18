@@ -4,7 +4,7 @@
   "description": "An npm module starter kit",
   "main": "index.js",
   "scripts": {
-    "cover": "nyc --reporter=html --reporter=text mocha",
+    "cover": "nyc --reporter=html --reporter=text mocha test/**/*.spec.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint src --fix",
     "test": "mocha --reporter spec test/**/*.spec.js",
