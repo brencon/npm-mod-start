@@ -12,6 +12,11 @@ TBD
 ## Tests
 `npm test`
 
+## Code Quality
+Code quality will be checked using eslint with the `--fix` argument so repair easily-fixed rule-breaking code.
+
+`npm lint`
+
 ## Code Coverage
 TODO
 
