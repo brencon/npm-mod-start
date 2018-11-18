@@ -30,12 +30,22 @@ For transparency into a common release cycle to strive toward maintaining backwa
 ### Creating a New Version
 The following commands will create a new version of the module, automatically create a new tag with the same value as the version, push the tags to the remote, and, finally, push the code to the remote.
 
+#### Stage your files
+`git add .`
+
+#### Commit with message
+`git commit -m "your commit message"`
+
+#### Bump the version
 `npm version patch`
 
+#### Push the updated tag
 `git push --tags`
 
+#### Push committed changes
 `git push`
 
+#### Publish the module to npmjs.org
 `npm publish`
 
 ## Creator
