@@ -22,7 +22,7 @@ Code quality will be checked using eslint with the `--fix` argument so repair ea
 `npm lint`
 
 ## Code Coverage
-TODO
+Code coverage is maintained by using the nyc command-line-client for [Istanbul](https://istanbul.js.org/) with [Coveralls](https://coveralls.io) reporting.
 
 ## Continuous Integration
 Continuous integration provided by [Travis CI](https://travis-ci.org).
