@@ -4,7 +4,10 @@
   "description": "An npm module starter kit",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "lint": "eslint src --fix",
+    "test": "mocha --reporter spec",
+    "preversion": "npm run lint && npm test",
+    "prepublishOnly": "npm version patch && git push --tags && git push"
   },
   "repository": {
     "type": "git",
