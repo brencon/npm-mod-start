@@ -45,7 +45,7 @@ In lieu of a formal style guide, take care to maintain the existing coding style
 Updates and discussions about this module can be found [@symBrendan on Twitter](https://twitter.com/symBrendan).
 
 ## Versioning
-For transparency into a common release cycle to strive toward maintaining backward compatibility, word-forward is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+For transparency into a common release cycle to strive toward maintaining backward compatibility, this project is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
 ### Creating a New Version
 The following commands will create a new version of the module, automatically create a new tag with the same value as the version, push the tags to the remote, and, finally, push the code to the remote.
